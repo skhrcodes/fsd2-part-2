@@ -1,0 +1,57 @@
+<link rel="stylesheet" href="style.css">
+  <!-- jQuery CDN -->
+  <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+
+
+
+<h1 id="mainHeading">DOM & jQuery Manipulation Demo</h1>
+
+<!-- Change Text -->
+<button id="changeTitleBtn">Change Page Title</button>
+<p id="status1">Current Title Displayed Here</p>
+
+<!-- Style Paragraphs -->
+<p>Paragraph One</p>
+<p>Paragraph Two</p>
+<p>Paragraph Three</p>
+<button id="styleParasBtn">Style All Paragraphs</button>
+
+<!-- Change CSS (Color and Position) -->
+<div class="targetClass" id="movingText">Move Me</div>
+<button id="changeColorBtn">Change Color</button>
+<button id="nudgeRightBtn">Move Right</button>
+<button id="resetPosBtn">Reset Position</button>
+
+<!-- Change Image Source -->
+<img id="demoImg" src="https://picsum.photos/id/1025/300/180" width="300">
+<button id="swapImgBtn">Swap Image</button>
+
+<!-- Add / Delete Node -->
+<ul id="todoList">
+  <li>Item 1</li>
+  <li>Item 2</li>
+</ul>
+<button id="addTextNodeBtn">Add List Item</button>
+<button id="deleteNodeBtn">Delete Last Item</button>
+
+<!-- jQuery Section -->
+<button id="jqChangeTextBtn">Change My Text (jQuery)</button>
+
+<div id="bgTarget">Background Area</div>
+<button id="setBgBtn">Set Background Image</button>
+<button id="clearBgBtn">Clear Background</button>
+
+<form id="demoForm">
+  Name: <input type="text" name="name"><br>
+  Email: <input type="email" name="email"><br>
+  <button type="submit">Submit</button>
+  <button type="button" id="resetFormBtn">Reset</button>
+</form>
+<div id="formOutput"></div>
+
+<p id="attrTarget">This element will get attributes through jQuery</p>
+<button id="addAttrBtn">Add Attribute</button>
+<button id="showAttrBtn">Show Attributes</button>
+<div id="attrOutput"></div>
+
+<script src="script.js"></script>
